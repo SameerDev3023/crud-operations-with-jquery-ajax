@@ -7,7 +7,6 @@ $(document).ready(function () {
     let phoneNumber = $("#phone-number").val();
     let companyName = $("#company-name").val();
     var countryNames = $('#select option:selected').val();
-    console.log(countryNames);
     $.ajax({
         url:'includes/insert.php',
         method:'post',
